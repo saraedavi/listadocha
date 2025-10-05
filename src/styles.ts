@@ -47,6 +47,9 @@ export const Card = styled.div`
     border-radius: 10px;
     margin-bottom: 15px;
     margin-top: 15px;
+    object-fit: cover;
+    width: 150px;
+    height: 200px;
   }
 `
 
@@ -65,7 +68,6 @@ export const Wrapper = styled.div`
 export const Footer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 250px;
   gap: 1rem;
   align-items: center;
 `
