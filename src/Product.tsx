@@ -13,6 +13,11 @@ import tigela from '../src/assets/tigela.jpg'
 import cristalwave1 from '../src/assets/cristalwave1.jpg'
 import cristalwave2 from '../src/assets/cristalwave2.jpg'
 import descascador from '../src/assets/descascador.jpg'
+import borboletas1 from '../src/assets/borboletas1.jpg'
+import borboletas2 from '../src/assets/borboletas2.jpg'
+import flamingo from '../src/assets/flamin.jpg'
+import lencol1 from '../src/assets/lencol1.jpg'
+import lencol2 from '../src/assets/lencol2.jpg'
 import cafe from '../src/assets/cafe.jpg'
 
 const products = [
@@ -27,7 +32,42 @@ const products = [
   { id: 10, name: '4 Tigelinha Alegra 250 ml', price: '79,60', image: tigela },
   { id: 11, name: 'Cristalwave 1 lt', price: '84,90', image: cristalwave1 },
   { id: 12, name: 'Cristalwave 3 lt', price: '89,90', image: cristalwave2 },
-  { id: 13, name: 'Descascador Tupperware', price: '34,90', image: descascador }
+  {
+    id: 13,
+    name: 'Descascador Tupperware',
+    price: '34,90',
+    image: descascador
+  },
+  {
+    id: 14,
+    name: 'Tigela Murano Borboletas 2,5L',
+    price: '74,90',
+    image: borboletas1
+  },
+  {
+    id: 15,
+    name: 'Tigela Murano Borboletas 1,3L',
+    price: '55,90',
+    image: borboletas2
+  },
+  {
+    id: 16,
+    name: 'Pote Master Flamingo Tropical 1,5L',
+    price: '49,90',
+    image: flamingo
+  },
+  {
+    id: 17,
+    name: 'Kit LENÇOL Queen 3 peças 600 fios ',
+    price: '99,90',
+    image: lencol1
+  },
+  {
+    id: 18,
+    name: 'Jogo de lençol Queen 3 peças 100% algodão ',
+    price: '156,90',
+    image: lencol2
+  }
 ]
 
 export default function Product() {
