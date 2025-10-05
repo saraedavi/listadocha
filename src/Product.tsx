@@ -73,7 +73,7 @@ const products = [
 export default function Product() {
   const { id } = useParams()
 
-  if (!id) return
+  if (!id) return <div>Teste!!</div>
 
   useEffect(() => {
     // se a página foi aberta direto (sem passar pelo React Router),
