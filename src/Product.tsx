@@ -18,9 +18,12 @@ import borboletas2 from '../src/assets/borboletas2.jpg'
 import flamingo from '../src/assets/flamin.jpg'
 import lencol1 from '../src/assets/lencol1.jpg'
 import lencol2 from '../src/assets/lencol2.jpg'
+import tapioca from '../src/assets/tapioca.jpg'
+import touch from '../src/assets/touch.jpg'
 import cafe from '../src/assets/cafe.jpg'
 
 const products = [
+  
   { id: 1, name: 'Arroz 5 kg Tupperware', price: '99,90', image: arroz },
   { id: 2, name: 'Feijão 2 kg Tupperware', price: '96,90', image: feijao },
   { id: 3, name: 'Farinha 1,8 kg Tupperware', price: '96,90', image: farinha },
@@ -32,42 +35,14 @@ const products = [
   { id: 10, name: '4 Tigelinha Alegra 250 ml', price: '79,60', image: tigela },
   { id: 11, name: 'Cristalwave 1 lt', price: '84,90', image: cristalwave1 },
   { id: 12, name: 'Cristalwave 3 lt', price: '89,90', image: cristalwave2 },
-  {
-    id: 13,
-    name: 'Descascador Tupperware',
-    price: '34,90',
-    image: descascador
-  },
-  {
-    id: 14,
-    name: 'Tigela Murano Borboletas 2,5L',
-    price: '74,90',
-    image: borboletas1
-  },
-  {
-    id: 15,
-    name: 'Tigela Murano Borboletas 1,3L',
-    price: '55,90',
-    image: borboletas2
-  },
-  {
-    id: 16,
-    name: 'Pote Master Flamingo Tropical 1,5L',
-    price: '49,90',
-    image: flamingo
-  },
-  {
-    id: 17,
-    name: 'Kit LENÇOL Queen 3 peças 600 fios ',
-    price: '99,90',
-    image: lencol1
-  },
-  {
-    id: 18,
-    name: 'Jogo de lençol Queen 3 peças 100% algodão ',
-    price: '156,90',
-    image: lencol2
-  }
+  { id: 13, name: 'Descascador Tupperware', price: '34,90', image: descascador },
+  { id: 14, name: 'Tigela Murano Borboletas 2,5L', price: '74,90', image: borboletas1 },
+  { id: 15, name: 'Tigela Murano Borboletas 1,3L', price: '55,90', image: borboletas2 },
+  { id: 16, name: 'Pote Master Flamingo Tropical 1,5L', price: '49,90', image: flamingo },
+  { id: 17, name: 'Kit LENÇOL Queen 3 peças 600 fios ', price: '99,90', image: lencol1 },
+  { id: 18, name: 'Jogo de lençol Queen 3 peças 100% algodão ', price: '156,90', image: lencol2 },
+  { id: 19, name: 'Tapioca Tupperware 1,6 LT', price: '66,90', image: tapioca },
+  { id: 20, name: 'Toque +1 Touch Fresh Oval 1,1 L', price: '64,90', image: touch },
 ]
 
 export default function Product() {
