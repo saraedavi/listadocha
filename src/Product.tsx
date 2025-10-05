@@ -110,6 +110,9 @@ const products = [
 
 export default function Product() {
   const { id } = useParams()
+
+  if (!id) return
+
   const product = products.find((p) => p.id === parseInt(id)) // <-- converte para número
 
   if (!product)
