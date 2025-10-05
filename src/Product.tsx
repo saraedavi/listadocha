@@ -95,8 +95,8 @@ export default function Product() {
       </div>
     )
 
-  const numeroWhats = '5511968128718'
-  const mensagem = `Eu vi o produto ${product.name} e gostaria de comprar para os noivos`
+  const numeroWhats = ''
+  const mensagem = `Oie, Eu vi o produto ${product.name} e gostaria de comprar para a Sara e Davi.`
   const linkWhats = `https://wa.me/${numeroWhats}?text=${encodeURIComponent(
     mensagem
   )}`
